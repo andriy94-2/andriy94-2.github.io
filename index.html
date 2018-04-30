@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>Yagent</title>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+<body>
+
+       <script>
+function stateChange() {
+  var obj = document.getElementById('menu');
+
+  if (obj.style.display == "block") {
+    obj.style.display = "none";
+  } else {
+    obj.style.display = "block";
+  }
+}	
+	</script>
+  
+    <script>
+			  $(document).ready(function(){
+	$('#nav-icon1').click(function(){
+		$(this).toggleClass('open');
+	});
+});
+			  </script>
+
+ <header>
+   <div id="nav-icon1" onclick="stateChange()">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+  <div id="menu">
+         
+          <div class="nav-menu">
+              <div class="navigation-one">
+                  <ul>
+                      <li><a href="">Автострахование</a></li>
+                      <li><a href="">Путешествия</a></li>
+                      <li><a href="">Недвижимость</a></li>
+                      <li><a href="">Здоровье</a></li>
+                  </ul>
+              </div>
+                <div class="navigation-two">
+                  <ul>
+                      <li><a href="">Главная</a></li>
+                      <li><a href="">Доставка полиса</a></li>
+                      <li><a href="">Блог</a></li>
+                      <li><a href="">Контакти</a></li>
+                  </ul>
+              </div>
+              <div class="subscribe">
+                  <h5>Будьте в курсе</h5>
+                  <p>выгодных предложений<br> страхования!</p>
+                  <form action="">
+                      <input type="text" name="login" placeholder="Введите E-mail"><br>
+                       <a href="#" class="btn">Подписаться на рассылку</a>
+                  </form>
+              </div>
+          </div>
+  </div>
+   <div class="wrapper">
+       <div class="header-wrap">
+         
+            <div class="header-yeg">
+                    <a href="#" class="btn">Физ.Лицам</a>
+                <img src="images/logo.png" alt="" width="271" height="131">
+                <a href="#" class="btn">Юр.Лицам</a>
+           </div>             
+       </div>
+       
+       <div class="header-txt">
+           <h1>Привет ;) Ya твой Agent</h1>
+           <p>Помогаю определиться с выбором страховой компании и честно<br> рассказываю про преимущества и подводные камни полисов</p>
+           <hr>
+           <p>Предлагаю зарегистрироваться, чтобы все расчеты я мог сохранить<br> в твоем кабинете</p><br>
+           <a href="#" class="btn" onClick="getElementById('win').removeAttribute('style');" type="button">Регестрируюсь</a>
+           
+               <div id="win" style="display:none;">
+               
+   <div class="overlay"></div>
+      <div class="visible">
+       <button type="button" onClick="getElementById('win').style.display='none';"><i class="fa fa-times fa-2x" aria-hidden="true"></i></button>
+        <div class="tabs">
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1" title="Вкладка 1">Регестрация</label>
+ 
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2" title="Вкладка 2">Вход</label>
+    <section id="content-tab1">
+      <form action="" class="reg">
+        <lable class="lable-tel">Телефон</lable>
+        <input type="text" name="tel" required="">
+        <lable class="lable-mail">Введите E-mail</lable>
+        <input type="text" name="mail" required="">
+        <lable class="lable-pass">Придумайте пароль</lable>
+        <input type="password" name="password" required="">
+      </form>
+      <a href="#" class="btn btnnn" type="button">Зарегистрироваться</a>
+    </section>  
+    <section id="content-tab2">
+        <form action="" class="reg enter">
+        <lable class="lable-tel">Телефон</lable>
+        <input type="text" name="tel" required="">
+        <lable class="lable-pass">Пароль</lable>
+        <input type="password" name="password" required="">
+      </form>
+      <a href="#" class="btn" type="button">Войти</a>
+    </section>    
+</div>
+        
+    </div>
+</div>
+       </div>
+   </div>
+   
+ </header>
+ 
+    <section class="sec-fon">
+        <div class="wrapper">
+           <div class="title-top">
+               <h3>С каким направлением необходимо помочь?</h3>
+           </div>
+            <div class="help">
+                <div class="insurance">
+                   <a href="#"><p class="txt-help">Автострахование</p></a>
+                </div>
+                <div class="travel">
+                    <a href="#"><p class="txt-help">Путишествия</p></a>
+                </div>
+                <div class="estate">
+                     <a href="#"><p class="txt-help">Недвижимость</p></a>
+                </div>
+                <div class="health">
+                      <a href="#"><p class="txt-help">Здоровье</p></a>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <section>
+        <div class="wrapper">
+           <div class="discription">
+            <div class="discription-txt">
+                <h4>Чем я отличаюсь</h4>
+                <h5>от надоедливых брокеров?</h5>
+                <p>Yagent проанализировал всех брокеров страхового рынка и понял, что таким не является. Прежде всего потому, что он ориентирован на клиента. Всегда готов внимательно выслушать, затем на понятно языке объяснить детали договора, чтобы у вас не было удивленных, круглых глаз во время страхового случая. Но мы уверены его не будет))</p>
+            </div>
+            <div class="discription-img">
+                <img src="images/about-me-1.png" alt="">
+            </div>
+            </div>
+        </div>
+    </section>
+    
+     <section>
+        <div class="wrapper">
+           <div class="discription">
+           <div class="discription-img">
+                <img src="images/about-me-2.png" alt="">
+            </div>
+            <div class="discription-txt company-txt">
+                <h4>А от скучных страховых компаний,</h4>
+                <h5>я отличaюсь</h5>
+                <p>У меня в базе имеется более 30 ведущих страховых компаний. Из этого списка нету компании, которая была бы лидером по всем направлениям страхования. Но я могу вам предложить лучшие условия страхованию в любой области, потому что работаю и анализирую сразу все компании, а беру от них только лучшее под ваши запросы.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+       <section>
+        <div class="wrapper">
+           <div class="discription">
+            <div class="discription-txt">
+                <h4>Еще я умею</h4>
+                <h5>запоминать твои данные и сохранять историю расчетов</h5>
+                <p>Для удобства, Yagent разработал личный кабинет с интуитивно понятным дизайном. Не важно вы первый раз на сайте или уже являетесь действующим клиентом, Yagent сохранит все ваши расчеты. А если вам срочно понадобится оформить страховой полис, запрос на его оформление сможете отправить из личного кабинета. Это будет быстрее, потому что он уже запомнил ваши данные и фотографии документов.</p>
+            </div>
+            <div class="discription-img">
+                <img src="images/about-me-3.png" alt="">
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="approach-fon">
+        <div class="wrapper">
+            <div class="title-top">
+               <h3>Мой подход к работе очень прост</h3>
+           </div>
+           <div class="approach-work">
+               <div class="approach-bl1 app">
+                  <div class="app-icon">
+                   <span></span>
+                   <span class="namber">1</span>
+                   </div>
+                   <div class="app-txt">
+                       <h4>Заголовок</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetr</p>
+                   </div>
+               </div>
+               <div class="approach-bl2 app">
+                   <div class="app-icon">
+                   <span></span>
+                   <span class="namber">2</span>
+                   </div>
+                   <div class="app-txt">
+                       <h4>Заголовок</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetr</p>
+                   </div>
+               </div>
+               <div class="approach-bl3 app">
+                   <div class="app-icon">
+                   <span></span>
+                   <span class="namber">3</span>
+                   </div>
+                   <div class="app-txt">
+                       <h4>Заголовок</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetr</p>
+                   </div>
+               </div>
+               <div class="approach-bl4 app">
+                   <div class="app-icon">
+                   <span></span>
+                   <span class="namber">4</span>
+                   </div>
+                   <div class="app-txt">
+                       <h4>Заголовок</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetr</p>
+                   </div>
+               </div>
+               <div class="approach-bl5 app">
+                   <div class="app-icon">
+                   <span></span>
+                   <span class="namber">5</span>
+                   </div>
+                   <div class="app-txt">
+                       <h4>Заголовок</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetr</p>
+                   </div>
+               </div>
+               <div class="approach-bl6 app">
+                   <div class="app-icon">
+                   <span></span>
+                   <span class="namber">6</span>
+                   </div>
+                   <div class="app-txt">
+                       <h4>Заголовок</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetr</p>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </section>
+    
+    <section class="review">
+        <div class="wrapper messeg-bl">
+            <div class="review-blok1 messages">
+                <div class="review-txt-top">
+                    <p>Yagent</p>
+                    <p>15:43</p>
+                </div>
+                <div class="review-txt">
+                    <p>Привет, Алексей Поделись своим опытом работы со мной?</p>
+                </div>
+            </div>
+            <div class="review-blok2 messages">
+                  <div class="review-txt-top">
+                    <p>Алексей</p>
+                    <p>15:43</p>
+                </div>
+                <div class="review-txt alex-bg">
+                    <p>Алексей отвечает! Все супер. Немного позже напишу текст диалога Пока что сделай стилистику сообщений максимально похожой на настоящую переписку к в whatsapp</p>
+                </div>
+            </div>
+            <div class="review-blok3 messages">
+                  <div class="review-txt-top">
+                    <p>Yagent</p>
+                    <p>15:43</p>
+                </div>
+                <div class="review-txt">
+                    <p>Супер, спасибо! Какие будет пожелания ко мне? Хочу стать еще лучше.</p>
+                </div>
+            </div>
+            <div class="review-blok4 messages">
+                  <div class="review-txt-top">
+                    <p>Алексей</p>
+                    <p>15:44</p>
+                </div>
+                <div class="review-txt alex-bg">
+                    <p>Алексей отвечает! Все супер. Немного позже напишу текст диалога Пока что сделай стилистику сообщений максимально похожой на настоящую переписку к в whatsapp</p>
+                </div>
+            </div>
+            <div class="review-blok5 messages">
+                  <div class="review-txt-top">
+                    <p>Yagent</p>
+                    <p>15:44</p>
+                </div>
+                <div class="review-txt">
+                    <p>Еще раз спасибо! Обращайся</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="wrapper">
+             <div class="title-top">
+               <h3>Мои любимые партнеры</h3>
+           </div>
+           <div class="partners">
+               <div class="partners1 part">
+                   <img src="images/sukho.png" alt="">
+               </div>
+               <div class="partners2 part">
+                   <img src="images/nestle.png" alt="">
+               </div>
+               <div class="partners3 part">
+                   <img src="images/colorado.png" alt="">
+               </div>
+               <div class="partners4 part">
+                   <img src="images/digital.png" alt="">
+               </div>
+               <div class="partners5 part">
+                   <img src="images/par.png" alt="">
+               </div>
+               <div class="partners6 part">
+                   <img src="images/paragon.png" alt="">
+               </div>
+               <div class="partners7 part">
+                   <img src="images/companyname.png" alt="">
+               </div>
+               <div class="partners8 part">
+                   <img src="images/hill.png" alt="">
+               </div>
+               <div class="partners9 part">
+                   <img src="images/general.png" alt="">
+               </div>
+               <div class="partners10 part">
+                   <img src="images/chemo.png" alt="">
+               </div>
+               <div class="partners11 part">
+                   <img src="images/sukho.png" alt="">
+               </div>
+               <div class="partners12 part">
+                   <img src="images/nestle.png" alt="">
+               </div>
+           </div>
+        </div>
+    </section>
+    
+    <section class="about">
+        <div class="wrapper">
+            <div class="about-top">
+                <h2>YAgent — Страховой помощник<br> в Москве и регионах</h2>
+            </div>
+            <div class="about-txt">
+                <p>Компания Yagent работает на российском рынке с 2008 года, специализируется на модели прямого страхования — страхования без посредников, осуществляя оформление договора по телефону и через сеть интернет.</p>
+                <p>С развитием бизнеса и выходом в партнерский канал компания Yagent предоставила клиентам возможность оформлять страховые полисы в дилерских центрах и банках. Сегодня компания занимается автострахованием, страхованием от несчастного случая и болезней, страхованием имущества и гражданской ответственности, страхованием выезжающих за рубеж.</p>
+                <a href="#">Подробнее</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="question clearfix">
+        <div class="question-txt">
+            <h2>Остались<br> вопросы?</h2>
+            <p>Хотите получить расчет полиса?</p>
+        </div>
+        <div class="question-form">
+            <h5>Оставьте свой телефон<br> и я перезвоню вам</h5>
+            <p>Или можете написать мне в <a href="#">Телеграм?</a></p>
+            <form action="">
+                <input type="tel" name="tel" placeholder="+7 (345) 678-67-89" required="">
+            </form>
+            <a href="#" class="btn">Перезвоните мне</a>
+        </div>
+    </section>
+    
+    <section>
+        <div class="wrapper">
+            <div class="adress">
+                <div class="tel">
+                      <div class="app-icon">
+                   <span></span>
+                   </div>
+                   <div class="adress-txt">
+                       <p>Звоните по номеру:</p>
+                       <h4>8 800 312 11 11</h4>
+                   </div>
+                </div>
+                <div class="office">
+                      <div class="app-icon">
+                   <span></span>
+                   </div>
+                    <div class="adress-txt">
+                       <p>Приезжайте в офис:</p>
+                       <h4>21108, г. Москва,ул.<br> Ивана Франко, д.4, к.1</h4>
+                   </div>
+                </div>
+                <div class="mail">
+                      <div class="app-icon">
+                   <span></span>
+                   </div>
+                   <div class="adress-txt">
+                       <p>Пишите нам:</p>
+                       <h4>speak@yagent.ru</h4>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="wrapper">
+           <div class="footer-menu">
+                <ul class="footer-menu-left">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Доставка полиса</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <div class="footer-logo">
+                <img src="images/footer-logo.png" alt="">
+            </div>
+              <ul class="footer-menu-right">
+                <li><a href="#">Автострахование</a></li>
+                <li><a href="#">Путешествия</a></li>
+                <li><a href="#">Недвижимость</a></li>
+                <li><a href="#">Здоровье</a></li>
+            </ul>                                
+           </div>
+           <div class="social-icons">
+               <ul>
+                   <li><a href="#"></a></li>
+                   <li><a href="#"></a></li>
+                   <li><a href="#"></a></li>
+               </ul>
+               <a class="confidentiality" href="#">Политика конфиденциальности</a>
+           </div>
+           <div class="line"></div>
+           <div class="information">
+               <div class="yagent">
+                   <p>2017 © YAgent.ru — Надежный партнер</p>
+               </div>
+               <adress>
+               ИП Иванов Иван Иванович | ИНН 3845720423
+               </adress>
+               <div class="site">
+                   Сайт и маркетинг
+                   <a href="#"></a>
+               </div>
+           </div>
+        </div>
+    </footer>
+
+</body>
+</html>
